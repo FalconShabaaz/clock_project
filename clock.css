@@ -1,0 +1,109 @@
+/* body{
+    background-color:black;
+} */
+.container{
+    position: relative;
+    margin: auto;
+    height: 30vw;
+    width: 30vw; 
+    background: url(images/clock6.jpg) no-repeat;
+    background-size: 100%;
+    top: 50px;
+    border: 20px solid yellow;
+    box-shadow: 10px 7px 18px;
+    border-radius: 100%;
+    display:table;
+
+    /* display: none; */
+}
+.name{
+    font-family: monospace;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    /* color: #fff; */
+  /* text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe; */
+    
+}
+
+.hour,.minute,.second{
+    position: absolute;
+    background: rgb(232, 21, 21);
+    border-radius: 10px; 
+}
+
+#hour{
+    width: 1.2%;
+    height: 25%;
+    top: 25.15%;
+    left: 49.35%;
+    opacity: 0.8;  
+    transform-origin: bottom;
+    background-color: green;
+}
+#minute{
+    width: 1%;
+    height: 34%;
+    top: 16.2%;
+    left: 49.5%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    background-color:orange;
+     
+}
+#second{
+    width: 0.6%;
+    height: 42%;
+    top: 8.3%;
+    left: 49.7%;
+    opacity: 0.8; 
+    transform-origin: bottom;
+}
+
+.click{
+  position: relative;
+  margin: auto;
+  top: 90px;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 7px;
+  font-weight: 1000;
+  background-color: rgb(108, 247, 247);
+  box-shadow: 2px 2px 10px black;
+}
+
+.click:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* .digitalcontainer{
+    border: 2px solid yellow;
+} */
+
+.font-effect-neon{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 150px;
+    /* font-family: 'ClementFiveRegular';
+    font-weight: normal;
+    font-style: normal; */
+    font-family: "Sofia", sans-serif;
+    font-size: 90px;
+    display: table;
+    visibility: hidden;
+}
